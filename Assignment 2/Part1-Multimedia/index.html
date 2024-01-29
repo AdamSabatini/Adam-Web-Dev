@@ -125,7 +125,12 @@
         <!-- insert images with srcsets and sizes -->
 
         <a href="https://www.mozilla.org/en-US/firefox/new/" width="400">
-          <img>
+          <img
+          srcset="firefox_logo-only_RGB120.png 120w, firefox_logo-only_RGB400.png 400w"
+          sizes="(max-width: 500px) 120px,
+                 400px"
+          src="./firefox_logo-only_RGB400.png"
+          alt="firefox logo" />
         </a>
         <a href="https://www.mozilla.org/">
           <img>
