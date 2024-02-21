@@ -4,19 +4,21 @@ html {
 
 /* Your CSS below here */
 div{
-  background: linear-gradient(to top left, rgb(0, 0, 0, 0) 0%, rgb(0, 0, 0, 0.2) 30%, rgb(0, 0, 0, 0.2) 100%);
-  border: 1px solid darkblue;
-  background-color: lightblue;
-  border-radius: 10px;
-  width: 200px;
-  height: 150px;
-  padding: 10px;
-  text-align: center;
-  line-height: 150px;
-  margin: 0 auto;
-  font-size: 1rem;
-  color: yellow;
-  text-shadow: 1px 1px 2px black;
+  background: linear-gradient(to top left, rgb(0, 0, 0, 0) 0%, rgb(0, 0, 0, 0.2) 30%, rgb(0, 0, 0, 0.2) 100%); /* linear semi-transparent black gradient */
+  border: 1px solid darkblue; /* solid border with a similar color as the box, but slightly darker */
+  background-color: lightblue; /* box background colour */
+  border-radius: 10px; /* radius on border of the box*/
+  width: 200px; /* wdith of the box */
+  height: 150px; /* height of the box*/
+  padding: 10px; /* padding of the box*/
+  text-align: center; /* horizontally align text in the center of the box*/
+  line-height: 150px; /* vertically align text in the center of the box*/
+  margin: 0 auto; /* center box in the middle of the screen */
+  font-size: 1rem; /* set font size*/
+  color: yellow; /* set a high contrast text colour */
+  text-shadow: 1px 1px 2px black; /* black shadow behind text */
+  /* linear semi-transparent black gradient that goes towards the top left corner. 
+  transparent at the start, with a gradient to ~0.2 opacity by 30%, then staying the same color until the end*/
   box-shadow: 3px 3px 5px black, inset 3px 3px 2px rgb(255, 255, 255, 0.5), inset -3px -3px 2px rgb(0, 0, 0, 0.5);
 
 }
