@@ -3,3 +3,12 @@ html {
 }
 
 /* Your CSS below here */
+div{
+  border: 1px solid darkblue;
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
