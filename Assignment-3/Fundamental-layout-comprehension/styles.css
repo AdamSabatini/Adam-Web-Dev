@@ -49,10 +49,12 @@ body {
     margin: 0;
     padding: 0;
     float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    
   }
 
   .feature {
       width: 200px;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 20px;
   }
