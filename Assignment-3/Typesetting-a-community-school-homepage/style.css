@@ -71,7 +71,11 @@ h1, h2 {
 }
 
 html {
-  font-size: 16px;
+  font-size: 10px;
+}
+
+body {
+  line-height: 1.5;
 }
 
 /* modify font-size selectors */
@@ -81,8 +85,7 @@ h1, h2 {
 }
 
 p{
-  line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   letter-spacing: 0.02rem;
 }
 
@@ -90,3 +93,28 @@ p{
 h1 {
   text-align: center;
 }
+
+/* indenting the first paragraph after each heading */
+h2+p{
+  text-indent: 20px;
+}
+
+/* link styling*/
+a{
+  color: #a66;
+  outline: none;
+}
+
+a:visited, a:focus, a:hover {
+  color: #a66;
+  outline: none;
+  text-decoration: none;
+}
+
+a[href^="http"]{
+  background: url("./external-link-52.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 20px;
+  margin: .3rem;
+}
+
