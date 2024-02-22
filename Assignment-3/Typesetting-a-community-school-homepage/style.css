@@ -43,3 +43,29 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+/* Body font */
+@font-face {
+  font-family: 'merriweatherregular';
+  src: url('./fonts/merriweather-regular-webfont.woff2') format('woff2'),
+       url('./fonts/merriweather-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'merriweatherregular';
+}
+
+/* header font */
+@font-face {
+  font-family: 'robotoregular';
+  src: url('./fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('./fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-family: 'robotoregular';
+}
