@@ -69,3 +69,24 @@ body {
 h1, h2 {
   font-family: 'robotoregular';
 }
+
+html {
+  font-size: 16px;
+}
+
+/* modify font-size selectors */
+h1, h2 {
+  font-size: 2.2rem;
+  letter-spacing: 0.05rem;
+}
+
+p{
+  line-height: 1.5;
+  font-size: 1.1rem;
+  letter-spacing: 0.02rem;
+}
+
+/* header center */
+h1 {
+  text-align: center;
+}
