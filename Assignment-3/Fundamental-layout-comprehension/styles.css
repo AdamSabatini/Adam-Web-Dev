@@ -36,7 +36,7 @@ body {
     padding: 0;
     list-style: none; 
     display: flex; /* use flexbox for layout */
-    justify-content:space-between; /* space nav bar titles between */
+    justify-content:space-evenly; /* space nav bar titles evenly */
   }
   
   nav a {
