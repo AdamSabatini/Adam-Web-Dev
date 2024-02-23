@@ -37,7 +37,7 @@ body {
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content:space-evenly; /* space nav bar titles evenly*/
+    justify-content:space-between; /* space nav bar titles evenly*/
   }
   
   nav a {
@@ -52,6 +52,7 @@ body {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1px;
   }
 
   .feature {
