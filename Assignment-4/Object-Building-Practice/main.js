@@ -45,3 +45,10 @@ class Ball {
   }
 }
 
+const testBall = new Ball(50, 100, 4, 4, "blue", 10);
+testBall.x;
+testBall.size;
+testBall.color;
+testBall.draw();
+
+
