@@ -1,3 +1,9 @@
+/*
+  Name: Adam Sabatini
+  File: main.js
+  Date: April 4, 2024
+  Description: Generates a silly story when the "Generate random story" button is pressed using javascript. Provide a US and UK version.
+*/
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
