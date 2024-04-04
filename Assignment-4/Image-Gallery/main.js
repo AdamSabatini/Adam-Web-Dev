@@ -1,3 +1,9 @@
+/*
+  Name: Adam Sabatini
+  File: main.js
+  Date: April 4, 2024
+  Description: Create an image gallery using the provided images and javascript.
+*/
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
