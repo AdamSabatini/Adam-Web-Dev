@@ -36,12 +36,13 @@ class Shape{
   }
 }
 
+// evil circle class
 class EvilCircle extends Shape{
   constructor(x,y){
     super(x, y, 20, 20);
     this.color = "white";
     this.size = 10;
-
+    // allow user to move the cicle using wasd
     window.addEventListener("keydown", (e) => {
       switch (e.key) {
         case "a":
@@ -58,7 +59,14 @@ class EvilCircle extends Shape{
           break;
       }
     });
-    
+  }
+  // draw method
+  draw() {
+    ctx.beginPath();
+    ctx.lineWidth = 3; // width of outline
+    ctx.strokeStyle = this.color; // white color for outline
+    ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
+    ctx.stroke(); // dont fill in circle
   }
 }
 
