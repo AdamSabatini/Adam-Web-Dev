@@ -67,12 +67,12 @@ class Ball {
   
 }
 
-// test ball
-const testBall = new Ball(50, 100, 4, 4, "blue", 10);
-testBall.x;
-testBall.size;
-testBall.color;
-testBall.draw();
+// // test ball
+// const testBall = new Ball(50, 100, 4, 4, "blue", 10);
+// testBall.x;
+// testBall.size;
+// testBall.color;
+// testBall.draw();
 
 // animate the ball
 const balls = [];
@@ -93,7 +93,18 @@ while (balls.length < 25) {
   balls.push(ball);
 }
 
+// loop the ball animation
+function loop() {
+  ctx.fillStyle = "rgb(0 0 0 / 25%)";
+  ctx.fillRect(0, 0, width, height);
 
+  for (const ball of balls) {
+    ball.draw();
+    ball.update();
+  }
+
+  requestAnimationFrame(loop);
+}
 
 
 
