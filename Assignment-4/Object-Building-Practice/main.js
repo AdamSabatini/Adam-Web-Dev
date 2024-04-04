@@ -82,11 +82,11 @@ class Ball {
 }
 
 // test ball
-const testBall = new Ball(50, 100, 4, 4, "blue", 10);
-testBall.x;
-testBall.size;
-testBall.color;
-testBall.draw();
+// const testBall = new Ball(50, 100, 4, 4, "blue", 10);
+// testBall.x;
+// testBall.size;
+// testBall.color;
+// testBall.draw();
 
 // animate the ball
 const balls = [];
