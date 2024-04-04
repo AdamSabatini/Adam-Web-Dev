@@ -39,7 +39,7 @@ class Shape{
 class Ball extends Shape{
   constructor(x, y, velX, velY, color, size) {
     super(x,y, velX, velY);
-    this.exists = true;
+    this.exists = true; // tracks whether ball has or has not been deleted by the evil circle
     this.color = color;
     this.size = size;
   }
