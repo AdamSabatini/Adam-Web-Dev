@@ -31,6 +31,7 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
+    // replace name with bob if left empty
     newStory = newStory.replaceAll('Bob', name)
   }
 
