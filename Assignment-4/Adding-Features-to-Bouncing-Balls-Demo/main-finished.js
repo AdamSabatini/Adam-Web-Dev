@@ -1,3 +1,11 @@
+/*
+  Name: Adam Sabatini
+  File: main-finished.html
+  Date: April 4, 2024
+  Description: Add the following features to the bouncing balls demo.
+  Add a user controlled evil circle that deletes the balls if it catches them. 
+  Add a score counter to track the amount of balls deleted.
+*/
 // set up canvas
 
 const canvas = document.querySelector("canvas");
