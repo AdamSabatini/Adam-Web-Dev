@@ -1,3 +1,10 @@
+/*
+  Name: Adam Sabatini
+  File: index.html
+  Date: April 4, 2024
+  Description: create a classic bouncing balls demo using objects in javascript.
+*/
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");
