@@ -173,15 +173,25 @@ while (balls.length < 25) {
   balls.push(ball);
 }
 
+// create an evil circle object
+const evilCircle = new EvilCircle (0,0);
+
 function loop() {
   ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
   ctx.fillRect(0, 0, width, height);
 
   for (const ball of balls) {
-    ball.draw();
-    ball.update();
-    ball.collisionDetect();
+    if(ball.exists){ // check if ball exists
+      ball.draw();
+      ball.update();
+      ball.collisionDetect();
+    }
   }
+
+  // call upon evil circle functions
+  evilCircle.draw()
+  evilCircle.checkBounds()
+  evilCircle.collisionDetect()
 
   requestAnimationFrame(loop);
 }
